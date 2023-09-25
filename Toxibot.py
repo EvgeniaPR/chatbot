@@ -37,7 +37,7 @@ decon(conn, cursor)
 
 
 # Инициализируем бота
-bot = telebot.TeleBot("6659763073:AAHgjwD73Eho-YKoQ59JagZgWFiLhGLsUAQ")
+bot = telebot.TeleBot("YOURTOKEN")
 
 # Вызываем модель с сайта hugging face для определения токсичности текста
 clf = pipeline(
